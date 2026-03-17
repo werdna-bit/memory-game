@@ -1,9 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 @import "tailwindcss";
+
+:root {
+	--dark: #152937;
+	--semi-dark: #6293b6;
+	--light: #bacdd8;
+	--orange: #fda417;
+	--light-orange: #ffba4d;
+}
 
 body {
 	height: 100vh;
+	background: var(--dark);
+	color: white;
+}
+
+.menu button {
+	background: var(--light);
+}
+.menu button:hover {
+	background: var(--semi-dark);
 }
 
 #root {
