@@ -2,7 +2,7 @@ import { useState } from "react";
 import Game from "./Game";
 
 function App() {
-	const [state, setState] = useState<"menu" | "game">("menu");
+	const [state, setState] = useState<"menu" | "game">("game");
 	const [gridSize, setGridSize] = useState<4 | 6>(4);
 	const [theme, setTheme] = useState<"numbers" | "icons">("numbers");
 	const [playerCount, setPlayerCount] = useState<number>(1);

@@ -16,14 +16,25 @@ body {
 	font-family: "Atkinson Hyperlegible", sans-serif;
 	color: var(--white);
 }
+
 .menu h3 {
 	color: var(--semi-dark);
 	font-weight: 600;
 	font-size: 1.2rem;
 }
+
 .text-dark {
 	color: var(--dark);
 }
+
+.dark {
+	background: var(--dark);
+}
+
+.orange {
+	background: var(--orange);
+}
+
 .menu button {
 	font-size: 1.6rem;
 	padding: 5px;
@@ -52,6 +63,7 @@ body {
 .start {
 	background: var(--orange);
 }
+
 .start:hover {
 	background: var(--light-orange);
 }
