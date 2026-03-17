@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -6,19 +7,53 @@
 	--light: #bacdd8;
 	--orange: #fda417;
 	--light-orange: #ffba4d;
+	--white: #fcfcfc;
 }
 
 body {
 	height: 100vh;
-	background: var(--dark);
-	color: white;
+	background: var(--white);
+	font-family: "Atkinson Hyperlegible", sans-serif;
+	color: var(--white);
+}
+.menu h3 {
+	color: var(--semi-dark);
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+.text-dark {
+	color: var(--dark);
+}
+.menu button {
+	font-size: 1.6rem;
+	padding: 5px;
+	cursor: pointer;
+	transition: background 200ms ease-in-out;
+	font-weight: 600;
+	border-radius: 50px;
 }
 
-.menu button {
+.text-white {
+	color: var(--white);
+}
+
+.active {
+	background: var(--dark);
+}
+
+.menubutton {
 	background: var(--light);
 }
-.menu button:hover {
+
+.menubutton:hover {
 	background: var(--semi-dark);
+}
+
+.start {
+	background: var(--orange);
+}
+.start:hover {
+	background: var(--light-orange);
 }
 
 #root {
