@@ -67,7 +67,7 @@ export default function Game({ theme, playerCount, gridSize }: Props) {
 						}}
 						type="button"
 						onClick={() => handleClick(index)}
-						className="w-full rounded-full aspect-square font-bold relative"
+						className={`w-full rounded-full aspect-square font-bold relative cursor-pointer`}
 					>
 						<div
 							style={{ backfaceVisibility: "hidden" }}
@@ -80,7 +80,7 @@ export default function Game({ theme, playerCount, gridSize }: Props) {
 								backfaceVisibility: "hidden",
 								transform: "rotateY(180deg)",
 							}}
-							className="dark w-full h-full rounded-full flex items-center justify-center absolute inset-0"
+							className="bg-[#152937] transition-all duration-300 ease-in-out  hover:bg-[#6293B6] w-full h-full rounded-full flex items-center justify-center absolute inset-0"
 						/>
 					</button>
 				))}
