@@ -68,7 +68,43 @@ body {
 	background: var(--light-orange);
 }
 
+.new {
+	background: var(--light);
+	color: var(--dark);
+	transition: all 300ms ease-in-out;
+	padding-inline: 1.2rem;
+}
+
+.new:hover {
+	background: var(--semi-dark);
+}
+
 #root {
 	height: 100%;
 	width: 100%;
+}
+
+.activeP {
+	background: var(--orange);
+	font-size: 1.3rem;
+	font-weight: 600;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.activeP p {
+	font-size: 2rem;
+}
+
+.wrapper {
+	background: var(--light);
+	font-size: 1.3rem;
+	font-weight: 600;
+	border-radius: 1rem;
+	padding: 1rem;
+	color: var(--semi-dark);
+}
+.wrapper p {
+	font-size: 2rem;
+	color: var(--dark);
 }

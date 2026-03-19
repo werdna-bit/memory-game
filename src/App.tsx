@@ -78,7 +78,14 @@ function App() {
 			</div>
 		</div>
 	) : (
-		<Game theme={theme} playerCount={playerCount} gridSize={gridSize} />
+		<Game
+			handleNewGame={() => {
+				setState("menu");
+			}}
+			theme={theme}
+			playerCount={playerCount}
+			gridSize={gridSize}
+		/>
 	);
 }
 
