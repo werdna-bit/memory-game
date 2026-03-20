@@ -17,6 +17,22 @@ body {
 	color: var(--white);
 }
 
+.container {
+	background: white;
+}
+
+.container h1 {
+	font-size: 2.4rem;
+	color: var(--dark);
+	font-weight: 600;
+}
+
+.container h2 {
+	font-size: 1rem;
+	color: var(--semi-dark);
+	font-weight: 600;
+}
+
 .menu h3 {
 	color: var(--semi-dark);
 	font-weight: 600;
@@ -106,5 +122,17 @@ body {
 }
 .wrapper p {
 	font-size: 2rem;
+	color: var(--dark);
+}
+
+.light {
+	background: var(--light);
+	font-size: 1.3rem;
+	font-weight: 600;
+	border-radius: 1rem;
+	padding: 1rem;
+	color: var(--semi-dark);
+}
+.light h3 {
 	color: var(--dark);
 }

@@ -5,7 +5,7 @@ function App() {
 	const [state, setState] = useState<"menu" | "game">("game");
 	const [gridSize, setGridSize] = useState<4 | 6>(4);
 	const [theme, setTheme] = useState<"numbers" | "icons">("numbers");
-	const [playerCount, setPlayerCount] = useState<number>(1);
+	const [playerCount, setPlayerCount] = useState<number>(3);
 
 	return state === "menu" ? (
 		<div className=" bg-[#152937] w-full h-full flex flex-col justify-center gap-8 md:gap-12 items-center">
